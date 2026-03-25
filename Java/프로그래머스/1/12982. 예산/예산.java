@@ -20,6 +20,8 @@ class Solution {
                 answer++;
                 budget-=d[i];
             }
+            else
+                break;
         }
         return answer;
     }
