@@ -5,11 +5,9 @@ class Solution {
         Arrays.sort(works);
         while(n!=0){
             while (n > 0) {
-            int lastIdx = works.length - 1;
-            int max = works[lastIdx];
-            
+            int max = works[works.length-1];
             if (max == 0) return 0;
-                for (int i = lastIdx; i >= 0; i--) {
+                for (int i=works.length-1; i>=0; i--) {
                     if (works[i] == max && n > 0) {
                         works[i]--;
                         n--;
