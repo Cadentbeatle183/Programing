@@ -8,8 +8,6 @@ class Solution {
             }
             k++;
         }
-        String temp=answer.toString()+"0";
-        answer.reverse();
-        return temp+answer.toString();
+        return answer.toString()+"0"+answer.reverse();
     }
 }
