@@ -5,5 +5,6 @@ class Solution {
             answer+=arr[i];
         }
         return answer/arr.length;
+        //
     }
 }
