@@ -9,5 +9,6 @@ class Solution {
                     answer+=(long)(str.charAt(i)-'0');
                 }
         return answer;
+        //
     }
 }
