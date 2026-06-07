@@ -10,6 +10,6 @@ class Solution {
         System.out.print(hasade+" "+x);
         if(x%hasade!=0)
             answer=false;
-        return answer;
+        return answer;//
     }
 }
