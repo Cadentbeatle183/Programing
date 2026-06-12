@@ -2,7 +2,7 @@ class Solution {
     public String[] solution(String[] strings, int n) {
         int length = strings.length;
 
-        // 선택 정렬(Selection Sort) 알고리즘 적용
+        // 선택 정렬(Selection Sort) 알고리즘 적용//
         for (int i = 0; i < length - 1; i++) {
             int min = i;
             for (int j = i + 1; j < length; j++) {
